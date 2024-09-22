@@ -83,12 +83,12 @@
 
 
         if (properName === "") {
-          alert("Please enter name before adding");
+          document.getElementById("result").innerHTML ="please enter name before adding";
           return;
         }
 
         if (names.includes(properName)) {
-          alert("name is already added");
+          document.getElementById("result").innerHTML ="Name is already added";
           return;
         }
 
